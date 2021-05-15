@@ -1,0 +1,31 @@
+.AboutMe{
+    background-color: black;
+    padding-bottom:5%;
+}
+
+.AboutMe .Container{
+    display:flex;
+}
+
+.AboutMe .Container .Text{
+    width:77%;
+    margin-left: 5%;
+}
+.AboutMe .Container .Photo{
+    width:40%;
+    display:flex;
+    justify-content: center;
+}
+
+.AboutMe .Container .Photo .Me{
+    height:300px;
+    width:300px;
+    overflow: hidden;
+    border-radius:65%;
+    margin-right:25px;
+    padding:30px;
+}
+.AboutMe .Container .Text h2{
+    font-weight:900;
+    font-size:47px;
+}

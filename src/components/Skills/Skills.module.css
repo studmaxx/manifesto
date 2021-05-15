@@ -1,0 +1,54 @@
+.Skills {
+  /* background-image: url("C:\Users\asus\Desktop\sample\manifesto\src\img\skills.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #141313;
+  padding-bottom: 5%;
+}
+
+.Skills .image{
+  background-image: url('C:\Users\asus\Desktop\sample\manifesto\src\img\skill.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* z-index:0; */
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+}
+
+/* .Skills .bgd{
+  width:100%;
+  height:42%;
+  z-index:1;
+} */
+
+.Skills p {
+  padding-left: 25%;
+  width: 50%;
+  font-weight: 500;
+}
+
+.Skills .List ul {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+}
+
+.Skills .Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skills .List ul li {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.Skills .Container .List {
+  flex-basis: 33%;
+  background-color: black;
+  box-shadow: 0 0 12px 4px white;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}

@@ -1,0 +1,52 @@
+.Project{
+    background-color: black;
+    position:relative;
+}
+
+.Project .Background{
+    position:absolute;
+    height:100%;
+    width:55%;
+    right:0;
+    z-index:0;
+}
+
+.Project .Content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.Project .Videos{
+    width:70%;
+    z-index:1;
+}
+.Project .Paragraph{
+    width:65%;
+    z-index:1;
+}
+
+.Project .Container .thumbnail img{
+    width:400px;
+    height:200px;
+}
+
+.Project .Container .Text{
+    padding-left:2.5%;
+    padding-right:2.5%;
+}
+
+.Project .Container .thumbnail{
+    padding-left:2.5%;
+    padding-right:2.5%;
+}
+
+
+.Project .Content .Videos .Container{
+    display:flex;
+    margin-bottom:5%;
+    height:300px;
+    align-items:center;
+    border-radius:10px;
+    box-shadow:0px 0px 5px 1px white;
+}

@@ -1,0 +1,17 @@
+.contact{
+    background:#361E46;
+    height:300px;
+    display:flex;
+    align-items:center;
+
+}
+
+.contact .contactIcons{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.contact .contactIcons svg path{
+    cursor:pointer;
+}
